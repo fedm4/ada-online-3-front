@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <!-- Estilos con tag Style -->
+        <style>
+            body {
+                background-color: cyan; /* Propiedad: Valor; */
+            }
+            .titulo-rojo {
+                background-color: black;
+                color: red;
+            }
+        </style>
+        <link rel="stylesheet" href="estilos.css" /> <!-- importo mis estilos del archivo css -->
+    </head>
+    <body>
+        <a>Hola Soy un link sin link</a>
+        <a href="#personajes">Link a personajes</a> <!-- Nos lleva al elemento HTML  que tiene ese id-->
+        <!-- INLINE - Edicion en linea -->
+        <h1 style="background-color: #33F2A9;">Mi titulo</h1>
+        <p style="background-color:crimson; color: #FFFFFF;">
+            Hola Soy un parrafo. Y ahora tengo un <a href="https://google.com">Link!</a>
+        </p>
+        <a
+            style="color:darkcyan; background-color: black;"
+            href="https://www.microsoft.com">Link a microsoft!</a>  
+        <hr/>
+
+        <h1 class="titulo-rojo">Este es mi titulo con estilos en el head</h1>
+        <p class="parrafo-especial">
+            <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones</a> is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones. The show was both produced and filmed in Belfast and elsewhere in the United Kingdom. Filming locations also included Canada, Croatia, Iceland, Malta, Morocco, and Spain.[1] The series premiered on HBO in the United States on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.
+        </p>
+
+        <h2 class="titulo-rojo">Este es mi segundo titulo rojo</h2>
+
+        <ul id="personajes"> <!-- identificador - es unico, no puedo repetir el mismo valor-->
+            <li>Arya</li>
+            <li>Cersei</li>
+            <li>Tyrion</li>
+            <li>Jon</li>
+        </ul>
+    </body>
+</html>

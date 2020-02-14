@@ -1,0 +1,9 @@
+.parrafo-especial {
+    font-weight: 600;   /* Normal, Bold(Negrita) */
+    font-style: italic; /* Estilo de nuestra letra, en este caso, cursiva*/
+    font-size: 20px;    /* El tamano de nuestra fuente, en este caso en pixeles(px) */
+}
+
+#personajes {
+    list-style-type: georgian;
+}
