@@ -1,0 +1,68 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+/* Fallback */
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+div {
+   /*Tag*/ 
+   color: blue;
+}
+.fondo-violeta {
+    /*Nombre de clase*/
+    background-color: violet;
+}
+#mi-id {
+    /*Nombre de ID*/
+}
+.texto-remarcado {
+    text-decoration: underline;
+    font-size: 25px;
+}
+.block{
+    display: block;
+    width: 50%;
+}
+
+.inline{
+    display: inline;
+}
+.background-azul {
+    background: blue; 
+}
+.color-negro {
+    color: black;
+}
+.subrayado {
+    text-decoration: underline;
+}
+
+
+.seccion-2{
+    background-color: green;
+    display: inline-block;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    width: 350px;
+}
+.box-model {
+    border: 1px dotted #333;
+    text-align: center; /* El padre define como se comporta su texto */
+}
+.span-contenido {
+    border: 3px solid black;
+    box-sizing: border-box;
+    display: inline-block;  
+    margin: 20px;
+    padding: 15px;
+    width: 180px;
+}
+
+.imagen-container{
+    width: 250px;
+}
+.imagen-gatos {
+    max-width: 100%;
+}
