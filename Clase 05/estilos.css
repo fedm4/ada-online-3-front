@@ -1,0 +1,58 @@
+.section{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #333333;
+  padding: 15px 0;
+}
+
+.first {
+  background-color: crimson;
+}
+.second {
+  background-color: cyan;
+}
+.third{ 
+  background-color: firebrick;
+}
+
+.first .container {
+  background-color: greenyellow;
+}
+.second .container {
+  background-color: yellowgreen;
+}
+
+.third .container {
+  background-color: pink;
+}
+
+.container {
+  box-shadow: 0 0 15px #333;
+  margin: 15px auto;
+  padding: 30px;
+  width: 600px;
+}
+.container p {
+  border-left: 3px solid #333333;
+  padding-left: 15px;
+  margin: 0;
+}
+.block {
+  display: block;
+}
+
+.container img {
+  width: 150px;
+}
+
+.quote-name {
+  background-color: darkmagenta;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #666666;
+  color: #ffffff;
+  font-size: 30px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  width: 150px;
+}
