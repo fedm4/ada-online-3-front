@@ -1,0 +1,31 @@
+.mi-span {
+  border: 1px solid black;
+  display: block;
+  height: 350px;
+  margin: 0 auto;
+  text-align:center; /*Centra todo mi contenido, no a mi mismo*/
+  width: 350px;
+}
+
+.mi-span a {
+  text-align: center; /* NO funciona */
+  border: 1px solid red;
+} 
+
+.mi-span-span{
+  display: inline-block;
+  border: 1px solid blue;
+  width: 50px;
+}
+
+div {
+  display: block; /* Esto es redundante */
+  border: 1px solid chocolate;
+  width: 50px;
+  margin: 0 auto; /* Esto me centra el div, pero no toma el text-align center del padre */
+}
+
+.solo-texto{
+  width: 30px;
+  height: 50px;
+}
