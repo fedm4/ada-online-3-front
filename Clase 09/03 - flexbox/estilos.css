@@ -1,0 +1,64 @@
+.cubito {
+  width: 100px;
+  height: 100px;
+}
+.cubito.blue {
+  background-color: darkcyan;
+}
+.cubito.red {
+  background-color: crimson;
+}
+.cubito.green {
+  background-color: green;
+}
+
+.cubitos-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.direction {
+  flex-direction: column-reverse;
+  /*
+    4 valores posibles
+    1. row (valor por default)
+    2. row-reverse
+    3. column
+    4. column-reverse
+  */
+}
+
+.justify {
+  justify-content: space-evenly;
+  /*
+    Valores mas comunes:
+    1. flex-start(valor por default)
+    2. flex-end
+    3. space-evenly
+    4. space-between
+    5. space-around
+    6. center
+  */
+}
+
+.align {
+  height: 250px;
+  border: 1px solid black;
+  align-items: center;
+  /*
+    valores comunes:
+    1. flex-start (valor por default)
+    2. flex-end
+    3. center
+  */
+}
+
+.center {
+  height: 250px;
+  border: 1px solid black;
+  align-items: center; /*verticalmente al centro*/
+  justify-content: center; /*horizontalmente en el centro*/
+}

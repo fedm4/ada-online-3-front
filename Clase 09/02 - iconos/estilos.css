@@ -1,0 +1,20 @@
+.iconitos .fas,
+.iconitos .fab {
+  font-size: 50px;
+}
+
+.lista {
+  list-style-type: none;
+}
+.iconitos li {
+  margin-bottom: 25px;
+  display: inline-block; /* Esto me pone la lista horizontal */
+}
+
+.fa-gitkraken {
+  color: purple;
+}
+
+.fa-linkedin {
+  color: lightblue;
+}
