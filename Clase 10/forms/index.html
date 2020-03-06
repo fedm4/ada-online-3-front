@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms!!!</title>
+</head>
+<body>
+  <!--Method puede tomar dos valores: GET y POST-->
+  <form action="https://google.com" method="GET">
+    <label>
+      Query:
+      <input
+        type="text"
+        name="q"
+        placeholder="How to program..."
+        maxlength="10"
+      />
+    </label>
+
+    <label>Edad:</label>
+    <input
+      max="10"
+      type="number"
+      name="edad"
+      placeholder="25" 
+    />
+    <div>
+      <label>Email</label>
+      <input type="email" name="email" />
+    </div>
+    <div>
+      <label>date</label>
+      <input type="date" name="date" />
+    </div>
+    <div>
+      <label>file</label>
+      <input type="file" name="file" />
+    </div>
+    <div>
+      <label>2 ambientes</label>
+      <input type="checkbox" name="2amb" value="2amb" />
+    </div>
+    <div>
+      <label>3 ambientes</label>
+      <input type="checkbox" name="3amb" value="3amb" />
+    </div>
+    <div>
+      <label>jardin</label>
+      <input type="checkbox" name="jardin" value="jardin" />
+    </div>
+    
+    
+    <div>
+      <label>1</label>
+      <input type="radio" name="numeroquequiero" value="1" />
+    </div>
+    <div>
+      <label>2</label>
+      <input type="radio" name="numeroquequiero" value="2" />
+    </div>
+    <div>
+      <label>3</label>
+      <input type="radio" name="numeroquequiero" value="3" />
+    </div>
+
+    <button type="submit">Mi boton!</button>
+  </form>
+</body>
+</html>
+<!--QUERY PARAMETERS--> 
