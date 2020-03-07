@@ -1,0 +1,18 @@
+.div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.div span {
+  color: white;
+}
+
+.div1 {
+  background-color: crimson;
+  margin-bottom: 20px;
+}
+
+.div2{
+  background-color: teal;
+  padding: 10px;
+}
