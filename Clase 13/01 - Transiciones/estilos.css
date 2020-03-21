@@ -1,0 +1,83 @@
+h1 {
+  /* key - value pair  o par de indice - valor*/
+  background: blue;
+  color: white;
+  opacity: 0.5;
+  width: 10%;
+  height: auto; /* no funciona auto para transiciones*/
+  /*
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+  */
+  transition: background 2s linear,
+    opacity 0.5s linear,
+    width 0.2s linear,
+    height 3s linear; /* no transiciona por el height auto*/
+}
+
+h1:hover {
+  height: 10px;
+  background: crimson;
+  opacity: 1;
+  width: 100%;
+}
+
+input{
+  transition: transform 2s linear;
+}
+input:focus {
+  /*transform: rotate(90deg);*/
+  /*transform: translate(100px, 200px);*/
+  /* translate (izquierda a derecha, arriba hacia abajo)*/
+  /*transform: skew(40deg);*/
+  transform: scale(0.5);
+}
+
+
+.boton-interactivo { 
+  background-color: pink;
+  border: none;
+  color: #333;
+  transition: box-shadow 0.1s linear,
+    background-color 0.4s linear;
+
+}
+
+.boton-interactivo:hover{
+  background-color: rgb(233, 173, 183);
+}
+
+.boton-interactivo:focus {
+  outline: none;
+  box-shadow: inset 1px 1px 3px #333;
+  background-color: rgb(224, 132, 148);
+}
+
+.image-container {
+  display: block;
+  position: relative;
+  width: 500px;
+}
+.img {
+  max-width: 100%;
+}
+.overlay {
+  background-color: rgba(220, 20, 60, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.4s linear;
+}
+.overlay h2 {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+.image-container:hover .overlay {
+  background-color: rgba(220, 20, 60, 0.5);
+}
+.image-container:hover .overlay h2 {
+  opacity: 1;
+}
