@@ -81,3 +81,99 @@ input:focus {
 .image-container:hover .overlay h2 {
   opacity: 1;
 }
+
+.saludos-container{ 
+  align-items: center;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+}
+
+.hola,
+.chau{
+  background-color: crimson;
+  border: 2px dotted #333;
+  height: 100px;
+  transition: transform 0.3s ease-in-out 0.5s,
+    top 0.3s linear,
+    left 0.3s linear;
+  width: 200px;
+}
+.hola{
+  position: absolute;
+  top: 50px;
+  transform: translate(-1000px, 0);
+}
+.chau{
+  transform: translate(0, 400px);
+}
+.saludos-container:hover .hola,
+.saludos-container:hover .chau {
+  transform: translate(0, 0);
+  top: 0; 
+  left: 400px;
+}
+
+.upper-hover-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content:center;
+}
+
+.upper-hover{
+  background-color: indigo;
+  border:none;
+  color: white;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid black;
+  width: 120px;
+  transition: color 0.4s linear;
+}
+
+.upper-hover-overlay{
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  display: inline-block;
+  transition: height 0.4s linear;
+}
+.upper-hover:hover {
+  color: indigo;
+}
+.button-text {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper-hover:hover .upper-hover-overlay {
+  height: 100%;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+  background-color: sandybrown;
+}
+.container div {
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
