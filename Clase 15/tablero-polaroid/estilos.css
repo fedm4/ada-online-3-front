@@ -10,15 +10,53 @@
 body {
   background-image: url(img/wood.jpg);
   margin: 0;
+  padding-left: 25px;
+}
+
+.polaroid-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .polaroid {
   background-color: white;
   box-shadow: 1px 2px 3px #222;
   box-sizing: border-box;
+  display: inline-block;
+  margin: 5px;
   padding: 15px;
+  transition: transform 0.1s linear,
+    box-shadow 0.1s linear;
   width: 200px;
 }
+
+.polaroid-container:nth-child(1) .polaroid:nth-child(1) {
+  transform: rotate(15deg);
+}
+
+.polaroid-container:nth-child(1) .polaroid:nth-child(2) {
+  transform: rotate(-15deg);
+}
+
+.polaroid-container:nth-child(1) .polaroid:nth-child(3) {
+  transform: rotate(22deg);
+}
+
+.rot-15{
+  transform: rotate(15deg);
+}
+.rot-min-15{
+  transform: rotate(-15deg);
+}
+
+.polaroid:hover{
+  box-shadow: 0 0 5px #222;
+  transform: rotate(0) scale(1.4) translate(0, 40px)!important;
+  z-index: 1;
+}
+
 .img-container {
   height: 170px;
   overflow: hidden;
