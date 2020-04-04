@@ -1,0 +1,10 @@
+
+.fa-pepper-hot {
+  font-size: 30px;
+}
+.fa-pepper-hot.active {
+  color: red;
+}
+.fa-pepper-hot.inactive {
+  color: #999;
+}
