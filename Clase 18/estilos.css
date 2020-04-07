@@ -1,0 +1,38 @@
+.cubito {
+  width: 100px;
+  height: 100px;
+}
+.cubito.blue {
+  background-color: darkcyan;
+}
+.cubito.red {
+  background-color: crimson;
+}
+.cubito.green {
+  background-color: green;
+}
+
+.cubitos-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.cubitos-self{
+  border: 11px dotted #333;
+  height: 300px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cubitos-self .green{
+  align-self: flex-end;
+  order: 2;
+}
+.cubitos-self .red {
+  align-self: center;
+  order: 0;
+}
+.cubitos-self .blue{
+  align-self: flex-start;
+  order: 1;
+}
