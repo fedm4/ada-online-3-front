@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 15px;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 0 4px #333;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card figure {
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+
+.card header figure img {
+  max-width: 100%;
+}
+
+.card header h1 {
+  text-align: center;
+}
+
+.card article {
+  padding: 15px;
+}
+
+/* No Mobile First*/
+@media (min-width: 399px){
+  .card figure {
+    height: 550px;
+  }
+}
+
+/* Mobile First */
+@media (min-width: 550px){
+  .card figure {
+    height: 700px;
+  }
+  .card header h1{
+    font-size: 28px;
+    color: red;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .card {
+    margin-bottom: 25px;
+    width: 250px;
+  }
+  .card figure {
+    height: 300px;
+  }
+}

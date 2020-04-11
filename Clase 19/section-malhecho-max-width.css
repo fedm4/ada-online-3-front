@@ -1,0 +1,23 @@
+.texto-generico {
+  background-image: url('img/section.jpg');
+  color: white;
+  height: 200px;
+  text-shadow: 0 1px 3px black;
+}
+
+@media (max-width: 800px) {
+  .texto-generico {
+    color : red;
+  }
+}
+
+
+@media (max-width: 414px){
+  .texto-generico{
+    background-image: none;
+    color: black;
+    height: auto;
+    text-shadow: none;
+  }
+}
+

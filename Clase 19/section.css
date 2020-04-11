@@ -1,0 +1,30 @@
+/* Breakpoint de mobile 1 */
+/* Este approach con max-width NO ES mobile-first */
+@media (max-width: 320px){
+
+}
+
+/* Breakpoint de mobile 2 */
+@media (min-width: 414px){
+  
+}
+
+/* Breakpoint de tablet */
+@media (min-width: 768px) {
+  .texto-generico {
+    background-image: url('img/section.jpg');
+    color: white;
+    height: 200px;
+    text-shadow: 0 1px 3px black;
+  }
+}
+
+/* Breakpoint de desktop/tablet */
+@media (min-width: 955px) {
+
+}
+
+/* Breakpoint de desktop */
+@media (min-width: 1024px) {
+
+}
