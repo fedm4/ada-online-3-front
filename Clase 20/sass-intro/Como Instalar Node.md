@@ -1,9 +1,11 @@
-# Instalar Node.
+# Node.
+Como pre-requisito hay que instalar node.
 
-## Node sass:
+# Node sass
 ### Para mac:
-    - sudo chmod o+w /usr/local/lib/node_modules
+    Primero deben ejecutar la siguiente linea
+    sudo chmod o+w /usr/local/lib/node_modules
 
 ### Para todos los sistemas operativos:
-    - npm install --global node-sass
+    npm install --global node-sass
 
