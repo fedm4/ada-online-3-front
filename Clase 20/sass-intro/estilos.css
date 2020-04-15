@@ -1,0 +1,10 @@
+.mi-clase-padre {
+    display: block;
+    padding: 25px;
+    border: 1px solid #444;
+}
+
+.mi-clase-padre .mi-clase-hija {
+    display: inline-block;
+    color: crimson;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+header {
+    box-shadow: 0 3px 5px #333;
+    display: flex;
+    flex-wrap: wrap;
+    height: 75px;
+    justify-content: space-between;
+    padding: 0 25px;
+    position: relative;
+}
+
+.menu-button {
+    align-self: center;
+    border: none;
+    padding: 0;
+}
+.menu-button label {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+nav {
+    border-bottom: 1px solid #333;
+    left: 0;
+    padding: 25px 0;
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    width: 100%;
+}
+nav a {
+    display: block;
+}
+nav,
+.sign-out,
+#input-menu {
+    display: none;
+}
+#input-menu:checked ~ nav {
+    display: block;
+}
