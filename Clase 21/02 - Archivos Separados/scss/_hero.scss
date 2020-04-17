@@ -1,0 +1,22 @@
+@import "./variables";
+
+#hero {
+    background: red;
+    height: calc(100vh - 75px);
+    position: relative;
+    .button-link {
+        border-radius: 5px;
+        background-color: lightslategray;
+        box-shadow: 0 0 3px $main-background;
+        bottom: 15px;
+        color: $main-color;
+        font-size: 19px;
+        left: 15px;
+        padding: $padding-m;
+        position: absolute;
+        text-decoration: none;
+        &:focus {
+            box-shadow: 0 0 3px inset $main-background;
+        }
+    }
+}

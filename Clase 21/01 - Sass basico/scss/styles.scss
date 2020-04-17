@@ -1,0 +1,19 @@
+$border-color: #444;
+$box-sizing: border-box;
+$padding: 15px;
+
+.divcito {
+    box-sizing: $box-sizing;
+    border: 1px solid $border-color;
+    height: 100px;
+    padding: $padding;
+    &.divcito-1{
+        background: crimson;
+    }
+    .mini-div-1 {
+        box-sizing: $box-sizing;
+        border: 1px dotted $border-color;
+        height:50px;
+        padding: $padding;
+    }
+}
