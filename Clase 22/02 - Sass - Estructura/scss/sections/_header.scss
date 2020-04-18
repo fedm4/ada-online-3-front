@@ -1,0 +1,36 @@
+@import "../abstract/variables";
+
+.main-header{
+    align-items: center;
+    
+    box-sizing: $box-sizing;
+    box-shadow: 0 1px 3px $white;
+    display: flex;
+    justify-content: space-between;
+    padding: $padding-l; 
+    .main-titulo{
+        color: $white;
+        font-family: $title-font;
+        font-size: $font-xl;
+        font-weight: 600;
+    }
+
+    .main-nav{
+        a {
+            color: white;
+            border-bottom: 3px solid $primary-color;
+            display: inline-block;
+            font-family: $normal-font;
+            margin-right: $margin-s; 
+            padding: $padding-s;
+            text-decoration: none;
+            transition: background-color 0.3s linear;
+            &:hover{
+                background-color: $primary-color
+            }
+            &:active{
+                background-color: $hover-primary-color;
+            }
+        }
+    }
+}

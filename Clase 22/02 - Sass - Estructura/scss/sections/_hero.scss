@@ -1,0 +1,32 @@
+#hero {
+    align-items: center;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    position: relative;
+    .hero-text{
+        background: rgba(0,0,0,0.3);
+        border-radius: 3px;
+        color: $white;
+        font-family: $normal-font;
+        font-size: $font-m;
+        padding: $padding-l;
+        text-align: center;
+        width: 400px;
+    }
+    form {
+        align-items: center;
+        bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        left: calc(50% - 200px);
+        position: absolute;
+        width: 400px;
+        input, button {
+            margin-bottom: $margin-s;
+        }
+    }
+}

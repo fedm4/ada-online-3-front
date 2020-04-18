@@ -1,0 +1,14 @@
+// Abstract
+@import "./abstract/variables";
+
+// Components 
+@import "./components/button";
+@import "./components/input";
+
+// Sections
+@import "./sections/header";
+@import "./sections/hero";
+body {
+    background-color: $black;
+    margin: 0;
+}
