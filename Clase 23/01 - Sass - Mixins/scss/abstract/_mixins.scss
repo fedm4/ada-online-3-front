@@ -4,6 +4,12 @@
     }
 }
 
+@mixin breakpoint-tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
 @mixin mirixin {
     display: flex;
     align-items: center;
