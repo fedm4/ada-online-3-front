@@ -1,0 +1,23 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+input {
+    background-color: $white;
+    border: none;
+    border-bottom: 4px solid $white;
+    box-sizing: $box-sizing;
+    box-shadow: 0 0 3px $black;
+    color: $black;
+    font-family: $normal-font;
+    height: 34px;
+    padding-left: $padding-m;
+    width: 100%;
+    &:focus{
+        border-color: $secondary-color;
+        outline: none;
+    }
+
+    @include breakpoint-mobile-1 {
+        width: 300px;
+    }
+}

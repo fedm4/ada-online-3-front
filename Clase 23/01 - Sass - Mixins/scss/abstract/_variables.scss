@@ -1,0 +1,27 @@
+/* Fonts */
+$normal-font: 'Merriweather', serif;
+$title-font: 'Manrope', sans-serif;
+$font-xl: 25px;
+$font-l: 22px;
+$font-m: 18px;
+$font-s: 15px;
+$font-xs: 12px;
+
+// Padding y Margin
+$padding-l: 15px;
+$padding-m: 10px;
+$padding-s: 5px;
+$margin-l: 15px;
+$margin-m: 10px;
+$margin-s: 5px;
+
+// Colors
+$black: #333;
+$white: #FAFAFA;
+$primary-color: crimson;
+$hover-primary-color: darken($primary-color, 20);
+$secondary-color: teal;
+$hover-secondary-color: lighten($secondary-color, 20);
+
+//otros
+$box-sizing: border-box;

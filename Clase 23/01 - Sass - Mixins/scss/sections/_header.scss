@@ -1,0 +1,58 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+.main-header{
+    align-items: center;
+    box-sizing: $box-sizing;
+    box-shadow: 0 1px 3px $white;
+    display: flex;
+    justify-content: space-between;
+    padding: $padding-l;
+
+    @include heading-colors(darken(teal, 20), teal);
+
+    .main-titulo{
+        color: $white;
+        font-family: $title-font;
+        font-size: $font-xl;
+        font-weight: 600;
+        
+        @mixin breakpoint-mobile-1 {
+            font-size: 65px;   
+        }
+        @include hover {
+            background-color: red;
+        }
+    }
+
+    .main-nav{
+        display: none;
+        @include relative;
+        
+        @include breakpoint-mobile-1 {
+            display: block;   
+        }
+
+        a {
+            color: white;
+            border-bottom: 3px solid $primary-color;
+            display: inline-block;
+            font-family: $normal-font;
+            margin-right: $margin-s; 
+            padding: $padding-s;
+            text-decoration: none;
+            transition: background-color 0.3s linear;
+            /*&:hover{
+                background-color: $primary-color
+            }*/
+            
+            @include hover {
+                background-color: blue;
+            }
+
+            &:active{
+                background-color: $hover-primary-color;
+            }
+        }
+    }
+}
