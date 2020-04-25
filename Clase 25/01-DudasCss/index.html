@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudas CSS</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div id="xadre-hije">
+        <div id="xadre">
+            XADRE
+            <!-- Este sí funciona porque está adentro de #xadre -->
+            <div id="hije">HIJE</div>
+        </div>
+        <!-- Este está afuera del contenedor #xadre, entonces no toma los estilos -->
+        <div id="hije">HIJE - clon</div>
+    </div>
+
+    <div id="divs-distintos">
+        <div id="separado-1">Separado 1</div>
+        <div id="neutro">
+            <div id="separado-2">Separado 2</div>
+        </div>
+        <div id="separado-2">Separado 2 - clon</div>
+    </div>
+
+    <div id="hermanes">
+        <div id="hermane-1">Hermano 1</div>
+        <div id="hermane-2" class="hermane">Hermano 2</div>
+        <div id="hermane-3" class="hermane">Hermano 3</div>
+        <div id="hermane-4" class="hermane">Hermano 4</div>
+    </div>
+
+</body>
+</html>

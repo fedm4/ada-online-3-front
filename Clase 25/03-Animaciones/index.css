@@ -1,0 +1,41 @@
+#cuadradito {
+    background-color: crimson;
+    height: 100px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100px;
+}
+/* Esto podría llamarse por clase también, pero con ID es más claro */
+#cuadradito:target{
+    /* Animation */
+    animation-name: cuadradit-move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+#mover {
+    right: 20px;
+    position: fixed;
+    top: 20px;
+}
+
+@keyframes cuadradit-move{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: calc(100vw - 100px);
+        top: 0;
+    }
+    50%{
+        left: 0;
+        top: calc(100vh - 100px);
+    }
+    75% {
+        left: calc(100vw - 100px);
+        top: calc(100vh - 100px);
+    }
+}
