@@ -26,12 +26,11 @@
     }
 
     .main-nav{
-        display: none;
         @include relative;
-        
         @include breakpoint-mobile-1 {
             display: block;   
         }
+        display: none;
 
         a {
             color: white;

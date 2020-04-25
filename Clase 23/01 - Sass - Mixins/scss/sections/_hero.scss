@@ -8,7 +8,7 @@
     height: 50vh;
     justify-content: center;
     position: relative;
-    @mixin breakpoint-mobile-1 {
+    @include breakpoint-mobile-1 {
         background-size: 250%;   
     }
     .hero-text{

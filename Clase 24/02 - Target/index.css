@@ -1,0 +1,37 @@
+#mi-target {
+    background: white;
+    box-shadow:  0 0 4px #333;
+    height: 100vh;
+    left: -400px;
+    position: fixed;
+    top: 0;
+    transition: left 0.3s linear;
+    width: 400px;
+}
+#mi-target:target{
+    left: 0;
+}
+
+
+#mi-target nav a {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#link2:target{
+    background-color: red;
+}
+
+.modal {
+    box-shadow: 0 0 5px #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    position: fixed;
+    top: 30vh;
+    left: 35vh;
+}
