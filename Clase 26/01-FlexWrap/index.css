@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 100px;  
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.cuadradote {
+    width: 45vw;
+    height: 40vh;
+}
+.red {
+    background-color: crimson;
+}
+.blue {
+    background-color: teal;
+}
+
+.green {
+    background-color: lightgreen;
+}

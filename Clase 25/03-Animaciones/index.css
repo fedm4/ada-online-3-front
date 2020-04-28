@@ -20,6 +20,11 @@
     position: fixed;
     top: 20px;
 }
+#resetear {
+    right: 20px;
+    position: fixed;
+    top: 40px;
+}
 
 @keyframes cuadradit-move{
     0%{

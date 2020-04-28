@@ -1,0 +1,20 @@
+span {
+    border: 1px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+}
+
+input:focus + span {
+    background: red;
+}
+input:active + span {
+    background: green;
+}
+
+button:focus + span {
+    background: black;
+}
+button:active + span{
+    background: blue;
+}

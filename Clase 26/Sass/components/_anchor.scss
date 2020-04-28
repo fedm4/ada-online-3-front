@@ -1,0 +1,10 @@
+@import '../abstract/mixins';
+
+/* a es por "anchor" */
+a {
+    $nomequierollamarcomoelarg: lightskyblue;
+    @include test(block, center, $nomequierollamarcomoelarg);
+    color: lightskyblue;
+    cursor: pointer;
+    text-decoration: none;
+}
