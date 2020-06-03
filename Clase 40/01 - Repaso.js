@@ -112,6 +112,16 @@ find = funcionAEjecutar => {
             return Array[i];
         }
     }
+    return undefined;
+}
+
+findIndex = funcionAEjecutar => {
+    for(let i = 0; i < Array.length; i++) {
+        if(funcionAEjecutar(Array[i]) === true) {
+            return i;
+        }
+    }
+    return -1;
 }
 // ///
 const lista = [
