@@ -133,7 +133,8 @@ const lista = [
 ];
 
 lista.foreach(item => {
-    item[0] = "fede";
+    // item === ['', 'palabra extra']
+    item[0] = "edgar allan poe";
 })
 
 console.log(lista);
