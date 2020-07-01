@@ -1,0 +1,11 @@
+{
+  "name": "clase-51",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01 - test.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
