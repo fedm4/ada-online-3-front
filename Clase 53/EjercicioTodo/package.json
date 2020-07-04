@@ -1,0 +1,20 @@
+{
+  "name": "ejerciciotodo",
+  "version": "1.0.0",
+  "description": "Ejercicio resuelto de todos",
+  "main": "ejercicioTodo.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "fede",
+    "todos",
+    "lista",
+    "funciones",
+    "creadoras",
+    "new"
+  ],
+  "author": "elFEde",
+  "license": "ISC"
+}
