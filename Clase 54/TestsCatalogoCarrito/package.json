@@ -1,0 +1,11 @@
+{
+  "name": "testscatalogocarrito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
