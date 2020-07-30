@@ -1,0 +1,9 @@
+.bloque {
+    background: cyan;
+    height: 250px;
+    width: 250px;
+}
+
+.rojo {
+    background: tomato!important;
+}
