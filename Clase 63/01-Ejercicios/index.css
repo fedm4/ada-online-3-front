@@ -1,0 +1,33 @@
+.cuadradito{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+#ej1-cuadradito1{
+    background-color: violet;
+}
+#ej1-cuadradito2 {
+    background-color: teal;
+}
+#ej1-cuadradito3 {
+    background-color: crimson; /* :D */
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+}
+
+#ej5-lista {
+    list-style: none;
+}
+
+#ej5-lista li {
+    display: none;
+    width: 250px;
+}
+
+#ej5-lista li img {
+    max-width: 100%;
+}
