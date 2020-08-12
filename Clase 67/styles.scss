@@ -1,0 +1,86 @@
+$blue: rgb(51,122,183);
+
+body{
+    margin: 0;
+}
+
+h1, h2, th, td, p, input, select, button, span, div {
+    font-family: 'Lato', sans-serif;
+}
+h1, h2 {
+    margin: 0;
+}
+button {
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 15px;
+}
+
+input, select {
+    padding: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+.bt-green {
+    $green: rgb(99,186,99);
+    background-color: $green;
+    color: white;
+    transition: background-color 0.2s linear;
+    &:hover {
+        background-color: darken($green, 20);
+    }
+}
+
+.bt-blue {
+    background-color: $blue;
+    color: white;
+    transition: background-color 0.2s linear;
+    &:hover {
+        background-color: darken($blue, 20);
+    }
+}
+
+#main-header {
+    background-color: #AAA;
+    margin-bottom: 50px;
+    padding: 20px 15px;
+}
+
+#main{
+    margin: 0 auto;
+    max-width: 954px;
+}
+
+.panel {
+    border-radius: 8px;
+    border: 1px solid $blue;
+    overflow: hidden;
+    padding-bottom: 25px;
+    header {
+        background-color: $blue;
+        margin-bottom: 25px;
+        padding: 10px 15px;
+        h2 {
+            color: white;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+    table {
+        border-collapse: collapse;
+        margin: 0 auto 25px;
+        th, td {
+            border-bottom: 1px solid #999;
+            padding: 5px 15px;
+        }
+        tr:last-child td {
+            border: none;
+        }
+    }
+    form input {
+        margin-right: 10px;
+    }
+}

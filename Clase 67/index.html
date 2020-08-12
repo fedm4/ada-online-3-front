@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex</title>
+    <script type="text/javascript" src="clases.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="onload()">
+    <header id="main-header">
+        <h1>E-Restaurant</h1>
+    </header>
+    <main id="main">
+        <section id="mesas" class="panel">
+            <header>
+                <h2>Mesas</h2>
+            </header>
+            <table id="tabla-mesas">
+                <thead>
+                    <th>Numero de Mesa</th>
+                    <th>Cuenta</th>
+                    <th>Cerrar Mesa</th>
+                </thead>
+                <tbody id="tbody-mesas">
+
+                </tbody>
+            </table>
+            <form class="text-center">
+                <input type="text" id="input-numero-mesa" placeholder="Numero de mesa"/>
+                <button type="button" class="bt-blue" id="agregar-mesa">Agregar Mesa</button>
+            </form>
+        </section>
+
+        <!-- section agregar productos a mesa -->
+        <section id="producto-a-mesa" class="panel">
+            <header>
+                <h2>Agregar Productos a Mesa</h2>
+            </header>
+            <table id="tabla-productos-a-mesa">
+                <thead>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                </thead>
+                <tbody id="tbody-productos-a-mesa">
+                    <!--<tr>
+                        <td>Cafe</td>
+                        <td class="text-center">
+                            <input type="text" placeholder="1" />
+                        </td>
+                    </tr>-->
+                </tbody>
+            </table>
+            <form class="text-center">
+                <select id="prod-a-mesa-numero">
+                    <option value="-1">- Numero de Mesa -</option>
+                </select>
+                <button type="button" class="bt-blue" id="agregar-mesa">Agregar a Mesa</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

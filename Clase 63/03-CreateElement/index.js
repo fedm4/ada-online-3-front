@@ -1,7 +1,10 @@
 const load = () => {
     const body = document.querySelector("body"); // devuelve un HTMLElement
 
+    document.querySelectorAll("section").addEventListener()// no funciona por que no existe ninguna section
+
     const section1 = document.createElement("section"); // devuelve un HTMLElement
+    
     section1.id = "hero";
     section1.classList.add("main-container");
     const heroTitle = document.createElement("h1");
