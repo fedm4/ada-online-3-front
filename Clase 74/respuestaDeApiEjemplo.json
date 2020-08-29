@@ -1,0 +1,14 @@
+{
+    "personas": [
+        {
+            "id": 1,
+            "nombre": "Fede",
+            "edad": 34
+        },
+        {
+            "id": 2,
+            "nombre": "Juan",
+            "edad": 45
+        }
+    ]
+}
