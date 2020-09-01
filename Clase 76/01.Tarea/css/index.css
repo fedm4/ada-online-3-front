@@ -1,0 +1,32 @@
+body {
+  margin: 0; }
+
+#main-header {
+  height: 75px;
+  box-shadow: 0 0 5px #333;
+  background: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #main-header .nav-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: crimson;
+    color: white;
+    text-decoration: none; }
+    #main-header .nav-link.is-active {
+      background: teal; }
+
+.main-sct {
+  display: none; }
+
+#sct-random {
+  box-sizing: border-box;
+  padding: 25px;
+  justify-content: center; }
+  #sct-random figure {
+    box-shadow: 0 0 3px #333;
+    padding: 5px;
+    max-width: 80%; }
+    #sct-random figure img {
+      max-width: 100%; }
