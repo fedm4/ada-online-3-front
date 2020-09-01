@@ -33,10 +33,15 @@ const onload = () => {
             const u = users.find(user => user.id === todo.userId);
             const user = document.createTextNode(u.name);
             const separator = document.createTextNode(" - ");
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.checked = todo.completed;
+
             li.appendChild(title);
             li.appendChild(separator);
             li.appendChild(user);
-            
+            li.appendChild(checkbox);
+
             if(todo.completed) li.classList.add("completed");
             lista.appendChild(li);
         });
