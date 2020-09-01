@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body onload="load()">
+    <section>
+        <label>
+            Id
+            <input value="" id="id" disabled/>
+        </label>
+
+        <label>
+            Nombre
+            <input value="" id="name"/>
+        </label>
+
+        <label>
+            Username
+            <input value="" id="username"/>
+        </label>
+
+        <label>
+            Email
+            <input value=""  id="email" type="email"/>
+        </label>
+
+        <label>
+            Address Street
+            <input value="" id="address-street"/>
+        </label>
+
+        <label>
+            Address Suite
+            <input value="" id="address-suite"/>
+        </label>
+    </section>
+
+    <section>
+        <input type="text" id="id-select" />
+        <button type="button" id="search">Search By Id</button>
+    </section>
+</body>
+</html>
