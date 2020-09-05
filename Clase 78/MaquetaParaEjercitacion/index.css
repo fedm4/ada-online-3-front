@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+a, input, label, p, section, td, div, span, span
+h1, h2, h3, h4, h5, h6, header, select{
+    font-family: "Lato", sans-serif;
+}
+.main-header {
+    background-color: teal;
+    color: white;
+}
+.main-header h1 {
+    margin: 0;
+    padding: 15px;
+}
+#users {
+    max-width: 900px;
+    margin: 25px auto;
+
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+tr {
+    box-shadow: 0 4px 3px lighten(#333, 30);
+}
+tr:last-of-type td {
+    border: none;
+}
+th {
+    background-color: crimson;
+    color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+
+#form-modal {
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 0 0 5px #666;
+    width: 500px;
+    padding: 40px;
+    left: calc(50vw - 250px);
+    top: 20vh;
+    display: none;
+}
+
+.input, .select {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 15px;    
+}
+#guardar-form {
+    width: 100%;
+    color: white;
+    background-color: teal;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+#guardar-form:hover {
+    background-color: #007570
+}
+
+#add-user-btn{
+    color: white;
+    background: crimson;
+    border: none;
+    padding: 15px;
+}

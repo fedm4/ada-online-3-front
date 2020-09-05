@@ -12,6 +12,7 @@
     <header class="main-header">
         <h1>Usuarios</h1>
     </header>
+    <button type="button" id="add-user-btn">Agregar nuevo usuario</button>
     <section id="users">
         <table>
             <thead>
@@ -20,10 +21,19 @@
                 <th>Avatar</th>
                 <th>Posición</th>
                 <th>Fecha de Creación</th>
+                <th>Eliminar</th>
             </thead>
             <tbody id="append-here">
             </tbody>
         </table>
     </section>
+    <form id="form-modal">
+        <input class="input" type="text" id="input-name" placeholder="name" />
+        <input class="input" type="text" id="input-avatar" placeholder="avatar url" />
+        <select class="select" id="select-jobs">
+            <option selected value="-1">- Seleccionar Posición -</option>
+        </select>
+        <button type="button" id="guardar-form">Guardar</button>
+    </form>
 </body>
 </html>
