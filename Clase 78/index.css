@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+a, input, label, p, section, td, div, span, span
+h1, h2, h3, h4, h5, h6, header{
+    font-family: "Lato", sans-serif;
+}
+.main-header {
+    background-color: teal;
+    color: white;
+}
+.main-header h1 {
+    margin: 0;
+    padding: 15px;
+}
+#users {
+    max-width: 900px;
+    margin: 25px auto;
+
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+tr {
+    box-shadow: 0 4px 3px lighten(#333, 30);
+}
+tr:last-of-type td {
+    border: none;
+}
+th {
+    background-color: crimson;
+    color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
