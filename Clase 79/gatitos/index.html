@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitxs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body onload="onload()">
+    <header id="main-header">
+        <nav>
+            <a id="btn-razas" class="nav-link" href="#">Razas</a>
+            <a id="btn-random" class="nav-link" href="#">Random</a>
+            <a id="btn-buscador" class="nav-link" href="#">
+                Buscador
+            </a>
+        </nav>
+    </header>
+    <section id="sct-razas" class="main-sct"></section>
+    <section id="sct-random" class="main-sct">
+        <figure>
+            <img id="random-img" src="" alt="Imagen random de gatitx" />
+        </figure>
+    </section> 
+    <section id="sct-buscador" class="main-sct">
+        <form action="">
+            <h4>Buscador</h4>
+            <input type="text" id="search">
+            <input type="submit" id="btn-search"></input>
+        </form>
+        <div id="table-search">
+            
+        </div>
+    </section>
+</body>
+</html>
