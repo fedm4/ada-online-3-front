@@ -1,0 +1,13 @@
+// Para crear un nuevo proyecto
+npx create-react-app <nombre-del-proyecto-sin-espacios>
+npx create-react-app proyectito001
+
+// ingreso a la carpeta 
+cd proyectito001
+
+// luego agrego node-sass
+yarn add node-sass 
+
+
+// arranco el proyecto
+yarn start
