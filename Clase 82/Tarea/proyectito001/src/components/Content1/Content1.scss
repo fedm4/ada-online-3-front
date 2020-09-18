@@ -1,0 +1,23 @@
+.kawaii-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini-card {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 0 3px #666;
+    border-radius: 4px;
+    background-color: white;
+    overflow: hidden;
+    margin: 20px;
+    header {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    img {
+        margin-top: -10px;
+        max-width: 100%;
+    }
+}

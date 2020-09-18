@@ -1,0 +1,13 @@
+#main-header{
+    background: violet;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px #333;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        margin: 0;
+        color: white;
+    }
+}

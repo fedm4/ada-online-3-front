@@ -1,0 +1,28 @@
+.card {
+    box-shadow: 0 0 3px #666;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+    .card-title{
+        height: 50px;
+        box-shadow: 0 0 3px #666;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h4 {
+            margin: 0;
+        }
+    }
+    .card-content {
+        height: 500px;
+        margin: 0;
+    }
+    .card-footer{
+        height: 50px;
+        background: red;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

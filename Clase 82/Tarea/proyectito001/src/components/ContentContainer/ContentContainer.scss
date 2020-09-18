@@ -1,0 +1,9 @@
+#content-container {
+    background: lightgray;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: calc(100vh - 75px - 50px);
+    padding: 25px;
+    font-weight: 400;
+    width: calc(100vw - 150px);
+}

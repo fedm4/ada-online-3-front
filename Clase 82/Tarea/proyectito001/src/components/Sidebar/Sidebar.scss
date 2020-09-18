@@ -1,0 +1,23 @@
+#sidebar {
+    height: calc(100vh - 75px - 50px); // 100vh menos 75px del header menos 50px de footer
+    background: darken(violet, 30);
+    width: 150px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+            a {
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    color: lightgray;
+                }
+            }
+        }
+    }
+}

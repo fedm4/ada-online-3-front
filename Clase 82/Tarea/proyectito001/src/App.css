@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+#main-nav-content{
+  display: flex;
+  flex-wrap: wrap;
+}
