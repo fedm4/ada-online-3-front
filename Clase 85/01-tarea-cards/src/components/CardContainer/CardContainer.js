@@ -31,6 +31,7 @@ const CardContainer = ({cardIndex}) => {
             case 0: setPixels(85);break;
             case 1: setPixels(-250);break;
             case 2: setPixels(-600);break;
+            default: setPixels(85);
         }
     }, [cardIndex]);
 
