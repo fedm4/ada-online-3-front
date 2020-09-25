@@ -1,0 +1,75 @@
+@import '../../sass/variables.scss';
+
+.card {
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: 540px;
+    position: relative;
+    width: 325px;
+    .card-wrapper {
+        background: white;
+        bottom: 0;
+        height: 175px;
+        left: 15px;
+        overflow: hidden;
+        position: absolute;
+        transition: all 0.4s ease-in;
+        width: 285px;
+        .card-wrapper-relative{
+            position: relative;
+            height: 100%;
+            .card-header {
+                line-height: 26px;
+                padding: 16px;
+                h2{
+                    margin: 0;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }
+            }
+            .card-content {
+                padding: 0 16px;
+            }
+            .card-footer{
+                position: absolute;
+                bottom: 0;
+                height: 50px;
+                background: linear-gradient(to top, white, rgba(255, 255, 255, 0.1));
+                width: 100%;
+                .card-open-button {
+                    background-color: $button-color;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 34px;
+                    font-weight: 500;
+                    width: 37px;
+                    height: 37px;
+                    bottom: 0;
+                    right: 0;
+                    position: absolute;
+                    border: none;
+                    cursor: pointer;
+                    &:active,&:focus {
+                        outline: none;
+                    }
+                    .card-open-button-icon {
+                        color: white;
+                        transition: transform 0.3s linear;
+                    }
+                }
+            }
+        }
+    }
+    &.opened {
+        .card-wrapper{
+            height: 100%;
+            width: 100%;
+            left: 0;
+        }
+        .card-open-button-icon {
+            transform: rotate(45deg);
+        }
+    }
+}
