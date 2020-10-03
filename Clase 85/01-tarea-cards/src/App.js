@@ -8,6 +8,9 @@ function App() {
 
   const [cardIndex, setCardIndex] = useState(0);
 
+  const fede1 = "Fede";
+  const [fede2, setFede2] = useState("Fede")
+
   return (
     <div className="main-container">
       <Header
