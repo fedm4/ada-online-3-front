@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus, faUserMinus, faEdit } from '@fortawesome/free-solid-svg-icons';
 import {reducer, ACTION_ADD, ACTION_REMOVE, ACTION_EDIT} from './reducers/userReducer.js';
 
+import AppConCounter from './AppConCounter';
+
 let nextUserId = 1;
 
 function App() {
@@ -31,10 +33,13 @@ function App() {
   
   const restar = () => dispatch({type: ACTION_REMOVE, id: parseInt(id)});
 
-  const editar = () => dispatch({type: ACTION_EDIT, payload: {name: editName, age: editAge, id: parseInt(editId)} });
-
+  const editar = () => {
+    const action = {type: ACTION_EDIT, payload: {name: editName, age: editAge, id: parseInt(editId)}};
+    dispatch(action);
+  }
   return (
     <div className="App">
+      <AppConCounter />
       {
         state.map(user => {
           return (

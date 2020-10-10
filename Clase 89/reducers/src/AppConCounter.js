@@ -17,7 +17,7 @@ const otroReducer = (state, action) => 1;
 function App() {
 
   const [contador, dispatch] = useReducer(reducer, 1);
-
+  
   const [otroState, otroDispatch] = useReducer(otroReducer, 0);
 
   const sumar = () => dispatch({type: "sumar"});
