@@ -1,0 +1,33 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal{
+    width: 600px;
+    background: white;
+    z-index: 100;
+    position: fixed;
+    left: calc(50vw - 300px);
+    top: 10vw;
+    border-radius: 4px;
+    padding: 15px;
+    box-sizing: border-box;
+    header {
+        border-bottom: 1px solid #999;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            margin : 0;
+        }
+    }
+    .modal-content {
+        // Estilos generales como inputs que vayan aca adentro
+    }
+}

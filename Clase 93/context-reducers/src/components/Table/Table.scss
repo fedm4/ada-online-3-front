@@ -1,0 +1,41 @@
+$lighter-gray: #AAA;
+$dark-gray: #333;
+.table {
+    background: white;
+    border-collapse: collapse;
+    width: 100%;
+    thead{
+        border-top: 1px solid lighten($lighter-gray, 20);
+        box-shadow: 0 5px 5px $lighter-gray;
+        th{
+            color: $dark-gray;
+            font-weight: 400;
+            line-height: 1.4;
+            background-color: transparent;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            text-transform: capitalize;
+        }
+    }
+    tbody{
+        tr{
+            border-bottom: 1px solid $lighter-gray;
+            td{
+                background-color: transparent;
+                color: $dark-gray;
+                font-weight: 300;
+                line-height: 1.4;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                text-align: center;
+            }
+            &:last-child{
+                border: none;
+            }
+        }
+    }
+}
+.no-data {
+    height: 45px;
+    text-align: center;
+}

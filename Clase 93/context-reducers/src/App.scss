@@ -1,0 +1,15 @@
+#main-header{
+  height: 75px;
+  background-color: magenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: white;
+    margin: 0;
+  }
+}
+
+.tachado {
+  text-decoration: line-through;
+}
