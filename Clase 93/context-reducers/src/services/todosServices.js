@@ -18,3 +18,13 @@ export const updateTodoCheck = async (todo, checked) => {
         throw new Error(`Unhandled - updateTodoCheck: ${err}`);
     }
 }
+
+export const createTodo = async (title, content) => {
+    try {
+        const newTodo = {title, content};
+        const res = await axios.post(baseUrl, newTodo);
+        return res.data;
+    }catch(err) {
+        throw new Error(`Unhandled - createTodo: ${err}`);
+    }
+};
