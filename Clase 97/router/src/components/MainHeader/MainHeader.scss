@@ -1,0 +1,23 @@
+#main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 0 15px #999;
+    background: teal;
+    color: white;
+    height: 75px;
+    h1{
+        margin: 0;
+    }
+    nav {
+        a {
+            margin-left: 25px;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            &:hover {
+                color: crimson;
+            }
+        }
+    }
+}

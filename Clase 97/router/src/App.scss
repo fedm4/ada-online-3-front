@@ -1,0 +1,25 @@
+.page-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 20px auto 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #999;
+  h2{
+      height: 50px;
+      color: white;
+      background: teal;
+      padding-left: 25px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+  }
+  p{
+      padding: 0 25px;
+      &:last-child{
+          padding-bottom: 25px;
+      }
+  }
+}
+p > a {
+  margin-left: 5px;
+}
