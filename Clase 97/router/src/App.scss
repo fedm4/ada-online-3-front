@@ -1,6 +1,9 @@
 .page-container {
   max-width: 1200px;
-  width: 90%;
+  
+  @media(min-width: 768px) {
+    width: 90%;
+  }
   margin: 20px auto 0;
   box-sizing: border-box;
   box-shadow: 0 0 5px #999;

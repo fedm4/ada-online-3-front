@@ -9,6 +9,7 @@ const MainHeader = () => {
             <nav>
                 <Link to="/">Index</Link>
                 <Link to="/pagina2">Pagina 2</Link>
+                <Link to="/todos">Todos</Link>
             </nav>
         </header>
     )

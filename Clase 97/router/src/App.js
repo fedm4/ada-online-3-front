@@ -9,6 +9,9 @@ import MainHeader from './components/MainHeader/MainHeader';
 import Index from './pages/Index/Index';
 import Pagina2 from './pages/Pagina2/Pagina2'
 import Pagina3 from './pages/Pagina3/Pagina3';
+import Todo from './pages/Todo/Todo';
+import Todos from './pages/Todos/Todos';
+
 
 
 import './App.scss';
@@ -31,6 +34,8 @@ const App = () => {
           </Route>
           <Route exact path="/pagina2" component={Pagina2} />
           <Route exact path="/pagina3/:id" component={Pagina3} />
+          <Route exact path="/todos" component={Todos} />
+          <Route exact path="/todo/:id" component={Todo} />
 
         </Switch>
       </BrowserRouter>
