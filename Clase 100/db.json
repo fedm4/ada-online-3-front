@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "039280409234",
+        "email": "fede.m.fede@gmail.com",
+        "password": "09825309852098754389gkljvd809t34",
+        "salt": 9489854,
+        "created_at": "2015-05-02",
+        "posts": [
+            {
+                "_id": "4",
+                "content": "hola soy un tercer post en otra db",
+            },
+            {
+                //...
+            },
+            {
+                //...
+            }
+        ]
+
+    },
+    {},
+    {},
+]
