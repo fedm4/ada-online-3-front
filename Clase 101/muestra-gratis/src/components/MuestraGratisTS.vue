@@ -12,6 +12,7 @@
 <script lang="ts">
 
 import {Component, Vue, Prop} from "vue-property-decorator";
+import {getUsers} from '../services/UserService';
 
 @Component({})
 export default class MuestraGratisTS extends Vue {
@@ -31,7 +32,9 @@ export default class MuestraGratisTS extends Vue {
     }
     
     mounted() {
-        console.log("MOUNTED!")
+        console.log("MOUNTED!");
+        getUsers();
+
     }
 }
 
