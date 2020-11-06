@@ -1,8 +1,11 @@
-export default class User {
+import IJobId from '../interfaces/IJobId';
+import IBuildingId from '../interfaces/IBuildingId';
+
+export default class User implements IJobId, IBuildingId{
     id!: string;
     name!: string;
-    jobId!: number;
     createdAt!: string;
     avatar!: string;
-    buildingId!: string;
+    buildingId!: number;
+    jobId!: number;
 }
