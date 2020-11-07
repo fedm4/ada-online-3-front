@@ -1,0 +1,36 @@
+@import './variables';
+
+.chat-message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    .user-pic-wrapper {
+        display: inline-block;
+        margin: 0 15px 0 0;
+        overflow: hidden;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        img{
+            max-width: 100%;
+        }
+    }
+    p{
+        background-color: $redwood;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 8px;
+        margin: 5px 0 0;
+        max-width: 300px;
+    }
+    &.user-message{
+        flex-direction: row-reverse;
+        .user-pic-wrapper {
+            margin: 0 0 0 15px;
+        }
+        p {
+            background-color: $vodka;
+        }
+    }
+}

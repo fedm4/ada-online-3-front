@@ -1,0 +1,25 @@
+@import './variables';
+
+#chat {
+    #messages {
+        height: calc(100vh - 75px - 50px);
+        overflow-y: auto;
+    }
+    #message-input{
+        background: $oscurito;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        input {
+            width: calc(100vw - 55px - 30px - 20px);
+            height: 40px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 55px;
+            height: 40px;
+        }
+    }
+}
