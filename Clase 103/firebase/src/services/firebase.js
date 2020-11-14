@@ -23,6 +23,19 @@ export const signInWithGoogle = () => {
     .catch(error => console.log(error.message));
 }
 
+export const signIn = (email, password) => {
+    /*
+        Si fuera con axios seria asi
+        return axios.post('https://midirecciondeapi.com/api/v1/login', {email, password})
+            .then(res => res.data) // es probable que el user sea res.data o puede ser res.data.user
+            .catch(...)
+            .finally(...)
+    */
+    return auth.signInWithEmailAndPassword(email, password)
+        .then(res => res.user)
+        .catch((error) => console.log(error.message));
+};
+
 export const getMessages = () => {
     const collection = 'messages';
     const messagesRef = database.collection(collection);
